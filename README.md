@@ -1,1 +1,1 @@
-Repositório para estudos de Front-end.
+Repositório para estudos de Front-end no geral.
