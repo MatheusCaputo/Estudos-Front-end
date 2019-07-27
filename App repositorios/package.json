@@ -19,6 +19,6 @@
     "dev": "webpack-dev-server --mode=development"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   }
 }
