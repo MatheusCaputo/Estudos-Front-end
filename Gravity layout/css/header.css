@@ -1,11 +1,8 @@
-header{
+.header{
     display: flex;
     justify-content: space-between;
-    max-width: 1110px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 5vh;
+    margin-bottom: 126px;
 }
 
 .menu{
@@ -14,7 +11,7 @@ header{
     height: 14px;
 }
 
-.menu span{
+.menu .content{
     display: block;
     text-indent: -9999px;
 }
@@ -36,12 +33,12 @@ header{
 }
 
 .menu:hover::before{
-    animation: small 250ms linear;
+    animation: small 400ms linear;
 
 }
 
 .menu:hover::after{
-    animation: big 250ms linear;
+    animation: big 400ms linear;
 }
 
 @keyframes small{
@@ -61,3 +58,4 @@ header{
         transform: scaleX(0.42);
     }
 }
+

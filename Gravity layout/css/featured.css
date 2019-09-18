@@ -1,0 +1,39 @@
+.featured{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured .title{
+    font-size: 60px;
+    line-height: 1.166em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    width: 540px;
+}
+
+.featured .social{
+    display: flex;
+    align-self: flex-end;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.featured .icon{
+    width: 16px;
+}
+
+.featured .wrapper-photo{
+    margin-top: 86px;
+}
+
+.featured .photo{
+    margin-bottom: 43px;
+}
+
+.featured .caption{
+    color: #222222;
+    font-size: 18px;
+    line-height: 1,555em;
+    opacity: 0.7;
+}
