@@ -1,3 +1,5 @@
 :root{
+    --smaller-gap: 18px;
     --small-gap: 22px;
+    --medium-gap: 30px;
 }
